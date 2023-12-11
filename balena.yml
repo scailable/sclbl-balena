@@ -9,13 +9,13 @@ post-provisioning: >-
   Allow a few minutes for your device to download the app. Once it's completed, go to port :8081 on your device.
 assets:
   repository:
-    type: blob.asset
+    type: blob.asset  
     data:
-      url: 'https://github.com/balena-io-examples/balena-nodejs-hello-world/'
+      url: 'https://github.com/scailable/sclbl-balena/'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/balena-io-examples/balena-nodejs-hello-world/master/logo.png'
+      url: 'https://raw.githubusercontent.com/scailable/sclbl-balena/master/logo.png'
 data:
   supportedDeviceTypes:
     - generic-x86-64-ext
