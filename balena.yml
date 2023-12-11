@@ -1,9 +1,10 @@
 name: balena-sclbl-ai-manager
 type: sw.application
-version: '1.0.0'
+version: '1.0.1'
 joinable: false
 description: >-
-  This 
+
+  Easily deploy advanced edge AI solutions in minutes using the Scailable AI Manager. Effortless configuration, OTA updates, and hardware optimization.
 post-provisioning: >-
   ## Usage instructions
 
