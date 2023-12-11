@@ -2,7 +2,8 @@
 
 echo -ne "Start install of the Scailable AI manager \n"
 
-accesskey="123-123"
+accesskey="${SCLBL_ACCESS_KEY:-empty}"
+
 bash -c "$(wget -qO - https://get.sclbl.net)" q
 
 if [[ ${accesskey} =~ ^\{?[A-F0-9a-f]{8}-[A-F0-9a-f]{4}-[A-F0-9a-f]{4}-[A-F0-9a-f]{4}-[A-F0-9a-f]{12}\}?$ ]]; then

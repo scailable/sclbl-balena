@@ -1,5 +1,6 @@
 name: balena-sclbl-ai-manager
 type: sw.application
+version: '1.0.0'
 joinable: false
 description: >-
   This 
