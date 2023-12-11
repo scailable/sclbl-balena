@@ -1,12 +1,10 @@
-
-
 # Scailable AI Manager for Balena Cloud
 
 Deploy the Scailable AI Manager through [Balena Cloud](https://dashboard.balena-cloud.com/) and [Balena Hub](https://dashboard.balena-cloud.com/).
 
 ## About
 
-The Scailable AI Manager streamlines the configuration of edge AI solutions. It enables you to effortlessly set up input sensors, select an AI or ML model from a vast library on the Scailable platform or import your model from any major AI/ML training platform, and specify your output target..
+The [Scailable AI Manager](https://scailable.net/) streamlines the configuration of edge AI solutions. It enables you to effortlessly set up input sensors, select an AI or ML model from a vast library on the Scailable platform or import your model from any major AI/ML training platform, and specify your output target..
 
 ## Features
 
@@ -17,10 +15,10 @@ The Scailable AI Manager streamlines the configuration of edge AI solutions. It 
 - Instant access to a comprehensive library of AI models for quick startup.
 - Seamless integration with a wide range of AI training platforms available in the market.
 
-## Setting environment variables
+## Auto-register with Variables
 
-After deploying MobiusFlow® to your device, override the following device variables:
+Before you deploy the Scailable AI Manager to your device, you can set the following [fleet variable](https://docs.balena.io/learn/manage/variables/) to a Scailable UUID access key to auto-register your device(s):
 
-- MOBIUS_HUB_ID: 000001 (the MobiusFlow® hub ID for this device)
+- SCLBL_ACCESS_KEY: uuid-access-key
 
-- MOBIUS_LICENCE = {replace with your licence code}
+You will need to get this access key from Scailable directly to use this feature. Contact [sales@scailable.net](mailto:sales@scailable.net) for more information.

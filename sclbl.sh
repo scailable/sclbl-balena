@@ -13,7 +13,7 @@ if [[ ${accesskey} =~ ^\{?[A-F0-9a-f]{8}-[A-F0-9a-f]{4}-[A-F0-9a-f]{4}-[A-F0-9a-
   echo -ne " * UUID detected: ${accesskey}.\n"
   echo -ne " * Access key entered. Scailable Edge AI Manager pre-registered.\n\n"
 else
-  echo -ne " * No valid access key detected. Please register the Scailable Edge AI Manager manually.\n\n"
+  echo -ne " * No valid access key detected. Please register the Scailable Edge AI Manager manually. [${accesskey:0:5}...]\n\n"
 fi
 
 balena-idle
