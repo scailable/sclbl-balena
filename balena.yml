@@ -1,4 +1,4 @@
-name: Scailable
+name: scailable-ai-manager
 type: sw.application
 description: >-
   Easily deploy advanced edge AI solutions in minutes using the Scailable AI Manager. Effortless configuration, OTA updates, and hardware optimization.
@@ -54,4 +54,4 @@ data:
     - raspberry-pi2
     - raspberrypi3
     - fincm3
-version: "1.0.5"
+version: "1.0.7"
