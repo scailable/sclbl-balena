@@ -3,7 +3,7 @@ FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine
 SHELL [ "/bin/bash", "-c" ]
 ENV SHELL=/bin/bash
 RUN exec /bin/bash
-RUN install_packages wget coreutils tar bash
+RUN install_packages wget coreutils tar bash util-linux
 
 WORKDIR /usr/src/app
 
