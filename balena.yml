@@ -55,4 +55,4 @@ data:
     - raspberry-pi2
     - raspberrypi3
     - fincm3
-version: "1.0.7"
+version: "1.0.8"
